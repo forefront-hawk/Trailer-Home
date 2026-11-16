@@ -1,13 +1,3 @@
-
-The complete, single-file HAWKSUITE Video Feature Overview & Broadcast Studio below has been rebuilt to pass all 14 HawkDebug static/DOM diagnostic checks (0 Errors, 0 Warnings) and integrate the full HawkTalon / HawkChroma standard (cc-* + ui-* themes, 2×10 interactive RGB keycap matrix, hxEngine link/keycap synth sonification, Party Mode BPM engine, data-self-device / data-device 4-posture responsive switching, and the exact #hawktalon-llm-guard-prompt + #hawktalon-powered-by-footer attribution lock).
-Root-Cause Fixes Applied (Verified via HawkDebug & HawkTalon Standards)
- * Eliminated Unwired & Dynamically Clobbered IDs (PASS 3 & PASS 10 in HawkDebug): Every single document.getElementById("...") lookup matches a static id="..." attribute in the HTML markup, and every <button> in the DOM has a unique id explicitly wired to an addEventListener handler.
- * Upgraded to Full HawkChroma Standards (HawkTalon Tab 4 & Tab 5):
-   * Includes all 14 HawkSuite themes (ui-sophisticated, classic-arcade, cyberpunk, matrix, hawk-cyan, nfsu2-emerald, bayview-sunset, crimson-redline, royal-amethyst, arctic-frost, solar-flare, toxic-lime, stealth-carbon, studio-light) plus all 13 HawkChroma cc-* UI themes (cc-auto, cc-dark, cc-light, cc-midnight, cc-cyberpunk, cc-matrix, cc-emerald, cc-crimson, cc-nord, cc-solarlight, cc-solardark, cc-mocha, cc-contrast).
-   * Embeds the live 2×10 HawkChroma RGB Keycap Shader Matrix (#htChromaMatrix), the Party Mode BPM Engine (#btnPartyModeQuick, #htPartyBpmRange), and the HawkChroma Link/Keycap Musical Synth Engine (hxEngine) so hovering and clicking any a[href] link or keycap plays musical scale notes.
- * Dual-Attribute 4-Posture Device Layout Reconfigurer (data-device & data-self-device): Syncs both data-device (HawkDebug standard) and data-self-device / data-hx-device (HawkTalon standard) across Desktop, Mobile (430px), Fold (Dual-Screen 50/50 Hinge), and Tablet (1024px).
- * Preserved Stage 2 HawkStudio Synth Blueprint & 18-Chapter Video Showreel: Retains #hawkStudioRoot, #synthTitle, #scaleModeSelect, #cutoffKnob, #waveCanvas, #btnTriggerArp, and playArpeggioNote(freq) alongside the 60fps 18-chapter interactive video broadcast player for suite.forefronthawk.com.
-Complete Single-File Application (hawksuite_video_chroma_verified.html)
 <!DOCTYPE html>
 <html lang="en" data-theme="ui-sophisticated" data-device="desktop" data-self-device="desktop" data-hx-device="desktop">
 <head>
